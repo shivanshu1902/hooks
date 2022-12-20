@@ -7,7 +7,7 @@ import HookCounter from './components/useState/HookCounter';
 import HookCounter1 from './components/useState/HookCounter1';
 import HookCounter2 from './components/useState/HookCounter2';
 import HookCounter3 from './components/useState/HookCounter3';
-import ComponentC from './components/useContext/ComponentC'
+//import ComponentC from './components/useContext/ComponentC'
 import ComponentB from './components/useContext/ComponentB';
 import CounterReducer from './components/useReducer/CounterReducer';
 
@@ -17,22 +17,22 @@ export const ChannelContext = React.createContext()
 function App() {
   return (
     <div className="App">
-      {/* <ClassCounter />
+      <ClassCounter />
       <HookCounter />
       <HookCounter1 />
       <HookCounter2 />
-      <HookCounter3 /> */}
+      <HookCounter3 />
       
       {/* useEffect */}
-      {/* <ClassCounter1 />
-      <HookEffect1 /> */}
+      <ClassCounter1 />
+      <HookEffect1 />
       
       {/* useContext */}
-      {/* <UserContext.Provider value={'Hakuna'}>
+      <UserContext.Provider value={'Hakuna'}>
         <ChannelContext.Provider value={'Matata'}>
           <ComponentB/>
         </ChannelContext.Provider>
-      </UserContext.Provider> */}
+      </UserContext.Provider>
 
       <CounterReducer />
 
